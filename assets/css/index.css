@@ -509,8 +509,16 @@
     margin-top: 25px;
   }
 
+  .content1 {
+    margin-top: 8%;
+  }
+
+  .content1__img img:nth-child(1) {
+    width: 70px;
+  }
+
   .featured {
-    margin-top: 7%;
+    margin-top: 10%;
     padding-left: 3%;
     margin-bottom: 10%;
   }
