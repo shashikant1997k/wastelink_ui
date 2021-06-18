@@ -84,6 +84,15 @@
   width: 100%;
 }
 
+.header .menu-icon .navicon_white {
+  background: #fff !important;
+}
+
+.header .menu-icon .navicon_white:before,
+.header .menu-icon .navicon_white:after {
+  background: #fff !important;
+}
+
 .header .menu-icon .navicon:before {
   top: 8px;
 }
@@ -104,7 +113,7 @@
 }
 
 .header .menu-btn:checked ~ .menu-icon .navicon {
-  background: transparent;
+  background: transparent !important;
 }
 
 .header .menu-btn:checked ~ .menu-icon .navicon:before {
