@@ -513,6 +513,10 @@
     margin-top: 12%;
   }
 
+  .content1__txt {
+    font-size: 28px;
+  }
+
   .content1__img img:nth-child(1) {
     width: 70px;
   }
