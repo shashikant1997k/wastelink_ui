@@ -8,7 +8,13 @@ $(document).ready(function () {
     if ($(window).scrollTop() > 100) {
       $(".header").addClass("header__scroll__col");
     } else {
-      $(".header").removeClass("header__scroll__col");
+      if (window.matchMedia("(max-width: 767px)").matches) {
+        if (!$(".menu-btn").is(":checked")) {
+          $(".header").removeClass("header__scroll__col");
+        }
+      } else {
+        $(".header").removeClass("header__scroll__col");
+      }
     }
 
     let elem = $(".t3");
@@ -87,7 +93,9 @@ $(document).ready(function () {
     if ($(".menu-btn").is(":checked")) {
       $(".header").addClass("header__scroll__col");
     } else {
-      $(".header").removeClass("header__scroll__col");
+      if ($(window).scrollTop() <= 100) {
+        $(".header").removeClass("header__scroll__col");
+      }
     }
   });
 });
