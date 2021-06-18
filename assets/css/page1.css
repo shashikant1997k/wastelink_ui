@@ -318,13 +318,17 @@
 
   .main__con1,
   .main__con2 {
-    padding: 4% 3%;
+    padding: 5% 3% 4% 3%;
   }
   .main__con2 .links1 {
     margin-top: 6%;
   }
   .links .link {
     font-size: 9px;
+  }
+
+  .con1__1 {
+    margin-top: 6%;
   }
 
   .con1__1,
