@@ -1,11 +1,13 @@
 $(document).ready(function () {
-  AOS.init({ duration: 600 });
-  $(window).on("load", function () {
-    AOS.refresh();
-  });
+  // AOS.init({ duration: 600 });
+  // $(window).on("load", function () {
+  //   AOS.refresh();
+  // });
 
-  $(window).scroll(function () {
-    if ($(window).scrollTop() > 100) {
+  $(".main__container").scroll(function () {
+    console.log($(".main__container").scrollTop());
+    if ($(".main__container").scrollTop() > 100) {
+      console.log("hihih");
       $(".header").addClass("header__scroll__col");
     } else {
       if (window.matchMedia("(max-width: 767px)").matches) {
@@ -97,5 +99,22 @@ $(document).ready(function () {
         $(".header").removeClass("header__scroll__col");
       }
     }
+  });
+});
+
+$(document).ready(function () {
+  $(".main__container").snapScroll({
+    arrowKeys: true,
+    duration: 800,
+    easing: "easeInOutCubic",
+    scrollBar: true,
+    onLeave: function (currentPoint, nextPoint) {
+      console.log(
+        "Leaving point " + currentPoint + ", going to point " + nextPoint + "."
+      );
+    },
+    onArrive: function (prevPoint, currentPoint) {
+      console.log("I've arrived!");
+    },
   });
 });

@@ -7,15 +7,17 @@
     <title>Wastelink | Reverse Logistics Platform</title>
     
     <link href="assets/plugins/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/plugins/css/aos.css" rel="stylesheet">
+    <!-- <link href="assets/plugins/css/aos.css" rel="stylesheet"> -->
     <link href="assets/plugins/css/font-awesome.min.css" rel="stylesheet">
     <link href="assets/plugins/css/slick.css" rel="stylesheet">
     <link href="assets/plugins/css/slick-theme.css" rel="stylesheet">
     
     <script src="assets/plugins/js/jquery-3.6.0.min.js"></script>
     <script src="assets/plugins/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/plugins/js/aos.js"></script>
+    <!-- <script src="assets/plugins/js/aos.js"></script> -->
     <script src="assets/plugins/js/slick.min.js"></script>
+    <script src="assets/plugins/js/jquery.snapScroll.min.js" charset="utf-8"></script>
+    <script src="assets/plugins/js/jquery.easing.min.js" charset="utf-8"></script>
     
     <script src="assets/js/index.js"></script>
 
@@ -28,228 +30,231 @@
 <body>
     <div class="main__container">
 
-        <!-- header start -->
-        <!-- <nav class="header">
-          <div class="header__logo__div">
-            <img
-              class="header__logo"
-              src="assets/image/w_logo.svg"
-              alt="Wastelink logo"
-          />
-          </div>
-
-          <div class="header__btn__main">
-            <div class="header__btn">Feed</div>
-            <div class="header__btn">Food</div>
-            <div class="header__btn">Sustainability</div>
-            <div class="header__btn">Contact US</div>
-          </div>
-        </nav > -->
-
-        <header class="header">
-          <a href="" class="logo">
-            <img
-              class="header__logo"
-              src="assets/image/w_logo.svg"
-              alt="Wastelink logo"
-          />
-          </a>
-          <input class="menu-btn" type="checkbox" id="menu-btn" />
-          <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-          <ul class="menu">
-            <li><a href="#Feed">Feed</a></li>
-            <li><a href="#Food">Food</a></li>
-            <li><a href="#Sustainability">Sustainability</a></li>
-            <li><a href="#contact">Contact US</a></li>
-          </ul>
-        </header>
-        <!-- header end -->
-
-        <!-- Carousel Start -->
-        <div class="Carousel__slider">
-            <div class="carousel__text">
-              <div class="txt1">RETHINK FOOD WASTE</div>
-              <div class="txt2">
-                We transform food and animal by-products into high protein ingredients for animal feed.
-              </div>
-            </div>
-            <div id="carouselMainIndicators" class="carousel slide carousel-fade" data-ride="carousel" data-interval="2000">
-                <div class="carousel-indicators">
-                  <li data-target="#carouselMainIndicators" data-slide-to="0" class="active"></li>
-                  <li data-target="#carouselMainIndicators" data-slide-to="1"></li>
-                  <li data-target="#carouselMainIndicators" data-slide-to="2"></li>
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="assets/image/img1.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="assets/image/img2.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="assets/image/img3.jpg" class="d-block w-100" alt="...">
-                  </div>
-                </div>
-              </div>
-        </div>
-        <!-- Carousel End -->
-
-
-        <!-- services start -->
-        <div class="services row">
-          <div class="t1 col-sm-12 d-flex flex-column" data-aos="fade-up">
-            <span>Wastelink</span> 
-            <span>Services</span>
-          </div>
-
-          <div class="services__inner col-sm-12" id="panel1">
-            <div class="row ml-0 mr-0">
-              <div class="services__left col-md-4 col-sm-5" data-aos="fade-right">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat et rhoncus pretium sagittis sit ut dui enim. Mi dignissim senectus tristique adipiscing turpis ac egestas. Nisl proin in matti. 
-              </div>
-              <div class="services__right col-md-8 col-sm-7" data-aos="fade-left" data-aos-delay="600">
-                <div class="services__right__text col-sm-12">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat et rhoncus pretium sagittis sit ut dui enim. Mi dignissim senectus tristique adipiscing turpis ac egestas. Nisl proin in mattis ac vel. 
-                </div>
-  
-                <div class="services__right__icon col-sm-12">
-                  <div class="icons">
-                    <div>
-                      <img src="assets/image/Vector.png" alt="">
-                    </div>
-                    <div>
-                      Food Supply
-                    </div>
-                  </div>
-                  <div class="icons">
-                    <img src="assets/image/down.png" class="_im" alt="">
-                    <img src="assets/image/up.png" class="_im" alt="">
-                  </div>
-                  <div class="icons">
-                    <div>
-                      <img src="assets/image/Vector.png" alt="">
-                    </div>
-                    <div>
-                      Animal Nutrition
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="services__button col-sm-12" data-aos="flip-up">
-            <div class="services__button1 __btn"><span>Food Manufacturers</span> <i class="fa fa-angle-right" aria-hidden="true"></i></div>
-            <div class="services__button2 __btn"><span>Feed Manufacturers</span> <i class="fa fa-angle-right" aria-hidden="true"></i></div>
-          </div>
-
-          <div class="services__con2 row" id="panel2">
-            <div class="t2 col-sm-9" data-aos="fade-up">
-              Save Co2 with wastelink and make earth a greener place
-            </div>
-            
-            <div class="services__inner pl-0 col-sm-12">
-              <div class="row ml-0 mr-0">
-                <div class="services__left col-md-4 col-sm-5" data-aos="fade-right">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat et rhoncus pretium sagittis sit ut dui enim. Mi dignissim senectus tristique adipiscing turpis ac egestas. Nisl proin in matti. 
-                </div>
-                <div class="services__right col-md-8 col-sm-7" data-aos="fade-left" data-aos-delay="600">
-                  <div class="services__right__text col-sm-12">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat et rhoncus pretium sagittis sit ut dui enim. Mi dignissim senectus tristique adipiscing turpis ac egestas. Nisl proin in mattis ac vel. 
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- services end -->
-
-        <div class="row ml-0 mr-0">
-          <div class="services__co2__txt col-md-4 col-sm-5 order-2 order-sm-1" data-aos="fade-right">
-            <div class="t3 d-flex flex-column">
-              <span><span class="t3__num">0</span> Tons</span>
-              <span>of CO2 saved</span>
-            </div>
-
-            <div class="__btn co2__btn"><span>Check how much Co2 you can save</span> <i class="fa fa-angle-right" aria-hidden="true"></i></div>
-          </div>
-          <div class="services__co2__image col-md-8 col-sm-7 order-1 order-sm-2" data-aos="fade-up">
-            <img src="assets/image/co2.png"  alt="CO2">
-          </div>
-        </div>
-
-
-        <div class="content1" data-aos="fade-up">
-          <div class="content1__img">
-            <img src="assets/image/img4.png" alt="">
-            <img src="assets/image/img5.png" alt="">
-          </div>
-          <div class="content1__txt">
-            <span>Full</span> 
-            <span>traceability</span>
-            <span>from fork</span>
-            <span>to farm </span>
-          </div>
-        </div>
-
-        <!-- Featured Start -->
-        <div class="featured" >
-          <div class="t4" data-aos="fade-right">Featured In</div>
-          <div class="slick-container" data-aos="zoom-in-up">
-            <div class="slick-wrap">
-              <div class="slick-item">
-                <img src="https://wastelink.co/wp-content/uploads/2020/09/nestle-e1601215359639.png" alt="">
-              </div>
-              <div class="slick-item">
-                <img src="https://wastelink.co/wp-content/uploads/2019/01/cargill2.jpg" alt="">
-              </div>
-              <div class="slick-item">
-                <img src="https://wastelink.co/wp-content/uploads/2019/08/dominos-wastelink.jpg" alt="">
-              </div>
-              <div class="slick-item">
-                <img src="https://wastelink.co/wp-content/uploads/2019/08/dunkin-logo-backdrop.png" alt="">
-              </div>
-              <div class="slick-item">
-                <img src="https://wastelink.co/wp-content/uploads/2018/09/priyagold.jpg" alt="">
-              </div>
-              <div class="slick-item">
-                <img src="https://wastelink.co/wp-content/uploads/2020/09/itc-paperboards-and-specialty-papers-division-squarelogo-1475153333822-e1601215179307.png" alt="">
-              </div>
-              
-            </div>
-          </div>
-        </div>
-        <!-- Featured end -->
-
-
-        <!-- footer start -->
-        <footer>
-          <div class="footer__logo col-sm-3 col-md-3">
-            <img
+        
+        <section class="sections" data-snap-point>
+          <!-- header start -->
+          <header class="header">
+            <a href="" class="logo">
+              <img
+                class="header__logo"
                 src="assets/image/w_logo.svg"
                 alt="Wastelink logo"
             />
+            </a>
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+            <ul class="menu">
+              <li><a href="#Feed">Feed</a></li>
+              <li><a href="#Food">Food</a></li>
+              <li><a href="#Sustainability">Sustainability</a></li>
+              <li><a href="#contact">Contact US</a></li>
+            </ul>
+          </header>
+          <!-- header end -->
+
+          <!-- Carousel Start -->
+          <div class="Carousel__slider">
+              <div class="carousel__text">
+                <div class="txt1">RETHINK FOOD WASTE</div>
+                <div class="txt2">
+                  We transform food and animal by-products into high protein ingredients for animal feed.
+                </div>
+              </div>
+              <div id="carouselMainIndicators" class="carousel slide carousel-fade" data-ride="carousel" data-interval="2000">
+                  <div class="carousel-indicators">
+                    <li data-target="#carouselMainIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselMainIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselMainIndicators" data-slide-to="2"></li>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="assets/image/img1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/image/img2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/image/img3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                </div>
           </div>
-          <div class="col-md-7 col-sm-9">
-            <div class="footer__links col-md-12 col-sm-12">
-              <div class="footer__link">Feed</div>
-              <div class="footer__link">Food</div>
-              <div class="footer__link">Sustainability</div>
-              <div class="footer__link">Contact US</div>
-            </div>
+          <!-- Carousel End -->
+        </section>
 
-            <div class="footer__social__div col-sm-12">
-              <div class="t5">Follow us on</div>
-              <div class="footer__social">
-                <a href="https://www.linkedin.com/company/wastelink/" target="_blank"><img width="25" height="25" src="http://www.mailjet.com/saas-templates-creator/static/img/linkedin_white.png" alt="Linkedin" title="Linkedin"></a>
 
-                <a href="https://twitter.com/wastelinkco" target="_blank"><img width="25" height="25" src="http://www.mailjet.com/saas-templates-creator/static/img/twitter_white.png" alt="Twitter" title="Twitter"></a>
+        <!-- <main class="main__wrapper"> -->
+          <section class="sections" data-snap-point>
+            <!-- services start -->
+            <div class="services row">
+              
+                <div class="t1 col-sm-12 d-flex flex-column" data-aos="fade-up">
+                  <span>Wastelink</span> 
+                  <span>Services</span>
+                </div>
 
-                <a href="https://www.facebook.com/wastelink.co/" target="_blank"><img width="25" height="25" src="http://www.mailjet.com/saas-templates-creator/static/img/facebook_white.png" alt="Facebook" title="Facebook"></a>
+                <div class="services__inner col-sm-12" id="panel1">
+                  <div class="row ml-0 mr-0">
+                    <div class="services__left col-md-4 col-sm-5" data-aos="fade-right">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat et rhoncus pretium sagittis sit ut dui enim. Mi dignissim senectus tristique adipiscing turpis ac egestas. Nisl proin in matti. 
+                    </div>
+                    <div class="services__right col-md-8 col-sm-7" data-aos="fade-left" data-aos-delay="600">
+                      <div class="services__right__text col-sm-12">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat et rhoncus pretium sagittis sit ut dui enim. Mi dignissim senectus tristique adipiscing turpis ac egestas. Nisl proin in mattis ac vel. 
+                      </div>
+        
+                      <div class="services__right__icon col-sm-12">
+                        <div class="icons">
+                          <div>
+                            <img src="assets/image/Vector.png" alt="">
+                          </div>
+                          <div>
+                            Food Supply
+                          </div>
+                        </div>
+                        <div class="icons">
+                          <img src="assets/image/down.png" class="_im" alt="">
+                          <img src="assets/image/up.png" class="_im" alt="">
+                        </div>
+                        <div class="icons">
+                          <div>
+                            <img src="assets/image/Vector.png" alt="">
+                          </div>
+                          <div>
+                            Animal Nutrition
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="services__button col-sm-12" data-aos="flip-up">
+                  <div class="services__button1 __btn"><span>Food Manufacturers</span> <i class="fa fa-angle-right" aria-hidden="true"></i></div>
+                  <div class="services__button2 __btn"><span>Feed Manufacturers</span> <i class="fa fa-angle-right" aria-hidden="true"></i></div>
+                </div>
+              
+
+              
+              </div>
+              <!-- services end -->
+          </section>
+
+
+          <section class="sections" data-snap-point>
+            <div class="services row">
+              <div class="services__con2 row" id="panel2">
+                <div class="t2 col-sm-9" data-aos="fade-up">
+                  Save Co2 with wastelink and make earth a greener place
+                </div>
+                
+                <div class="services__inner pl-0 col-sm-12">
+                  <div class="row ml-0 mr-0">
+                    <div class="services__left col-md-4 col-sm-5" data-aos="fade-right">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat et rhoncus pretium sagittis sit ut dui enim. Mi dignissim senectus tristique adipiscing turpis ac egestas. Nisl proin in matti. 
+                    </div>
+                    <div class="services__right col-md-8 col-sm-7" data-aos="fade-left" data-aos-delay="600">
+                      <div class="services__right__text col-sm-12">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat et rhoncus pretium sagittis sit ut dui enim. Mi dignissim senectus tristique adipiscing turpis ac egestas. Nisl proin in mattis ac vel. 
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-        </footer>
-        <!-- footer end -->
+            <div class="row ml-0 mr-0">
+              <div class="services__co2__txt col-md-4 col-sm-5 order-2 order-sm-1" data-aos="fade-right">
+                <div class="t3 d-flex flex-column">
+                  <span><span class="t3__num">0</span> Tons</span>
+                  <span>of CO2 saved</span>
+                </div>
+
+                <div class="__btn co2__btn"><span>Check how much Co2 you can save</span> <i class="fa fa-angle-right" aria-hidden="true"></i></div>
+              </div>
+              <div class="services__co2__image col-md-8 col-sm-7 order-1 order-sm-2" data-aos="fade-up">
+                <img src="assets/image/co2.png"  alt="CO2">
+              </div>
+            </div>
+          </section>
+            
+
+
+          <section class="sections" data-snap-point>
+            <div class="content1" data-aos="fade-up">
+              <div class="content1__img">
+                <img src="assets/image/img4.png" alt="">
+                <img src="assets/image/img5.png" alt="">
+              </div>
+              <div class="content1__txt">
+                <span>Full</span> 
+                <span>traceability</span>
+                <span>from fork</span>
+                <span>to farm </span>
+              </div>
+            </div>
+          </section>
+
+          <section class="sections" data-snap-point>
+            <!-- Featured Start -->
+            <div class="featured" >
+              <div class="t4" data-aos="fade-right">Featured In</div>
+              <div class="slick-container" data-aos="zoom-in-up">
+                <div class="slick-wrap">
+                  <div class="slick-item">
+                    <img src="https://wastelink.co/wp-content/uploads/2020/09/nestle-e1601215359639.png" alt="">
+                  </div>
+                  <div class="slick-item">
+                    <img src="https://wastelink.co/wp-content/uploads/2019/01/cargill2.jpg" alt="">
+                  </div>
+                  <div class="slick-item">
+                    <img src="https://wastelink.co/wp-content/uploads/2019/08/dominos-wastelink.jpg" alt="">
+                  </div>
+                  <div class="slick-item">
+                    <img src="https://wastelink.co/wp-content/uploads/2019/08/dunkin-logo-backdrop.png" alt="">
+                  </div>
+                  <div class="slick-item">
+                    <img src="https://wastelink.co/wp-content/uploads/2018/09/priyagold.jpg" alt="">
+                  </div>
+                  <div class="slick-item">
+                    <img src="https://wastelink.co/wp-content/uploads/2020/09/itc-paperboards-and-specialty-papers-division-squarelogo-1475153333822-e1601215179307.png" alt="">
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+            <!-- Featured end -->
+
+
+            <!-- footer start -->
+            <footer>
+              <div class="footer__logo col-sm-3 col-md-3">
+                <img
+                    src="assets/image/w_logo.svg"
+                    alt="Wastelink logo"
+                />
+              </div>
+              <div class="col-md-7 col-sm-9">
+                <div class="footer__links col-md-12 col-sm-12">
+                  <div class="footer__link">Feed</div>
+                  <div class="footer__link">Food</div>
+                  <div class="footer__link">Sustainability</div>
+                  <div class="footer__link">Contact US</div>
+                </div>
+
+                <div class="footer__social__div col-sm-12">
+                  <div class="t5">Follow us on</div>
+                  <div class="footer__social">
+                    <a href="https://www.linkedin.com/company/wastelink/" target="_blank"><img width="25" height="25" src="http://www.mailjet.com/saas-templates-creator/static/img/linkedin_white.png" alt="Linkedin" title="Linkedin"></a>
+
+                    <a href="https://twitter.com/wastelinkco" target="_blank"><img width="25" height="25" src="http://www.mailjet.com/saas-templates-creator/static/img/twitter_white.png" alt="Twitter" title="Twitter"></a>
+
+                    <a href="https://www.facebook.com/wastelink.co/" target="_blank"><img width="25" height="25" src="http://www.mailjet.com/saas-templates-creator/static/img/facebook_white.png" alt="Facebook" title="Facebook"></a>
+                  </div>
+                </div>
+              </div>
+            </footer>
+            <!-- footer end -->
+          </section>
+        <!-- </main> -->
 
     </div>
 </body>
