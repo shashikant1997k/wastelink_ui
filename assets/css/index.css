@@ -33,7 +33,7 @@ html {
 }
 
 .Carousel__slider #carouselMainIndicators .carousel-inner .carousel-item img {
-  height: 90vh;
+  height: 100vh;
   object-fit: cover;
 }
 
