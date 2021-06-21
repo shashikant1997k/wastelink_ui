@@ -99,6 +99,7 @@ html {
   font-weight: 600;
   line-height: 109%;
   color: #000000;
+  text-align: justify;
 }
 
 .services .services__inner .services__right {
@@ -108,6 +109,10 @@ html {
   line-height: 109%;
   color: #858585;
   font-size: 0.95em;
+}
+
+.services__right__text {
+  text-align: justify;
 }
 
 .services .services__inner .services__right .services__right__icon {

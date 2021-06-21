@@ -74,6 +74,7 @@
   line-height: 109%;
   color: #000000;
   margin-top: 4%;
+  text-align: justify;
 }
 
 .con1__2 {
@@ -84,6 +85,7 @@
   line-height: 109%;
   color: #858585;
   margin-top: 4%;
+  text-align: justify;
 }
 
 .con2 {
@@ -153,6 +155,7 @@
   font-size: 16px;
   line-height: 109%;
   color: #393939;
+  text-align: justify;
 }
 
 .main__con2 .links1 {
