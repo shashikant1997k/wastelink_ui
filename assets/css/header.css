@@ -156,7 +156,7 @@
   .header .menu {
     clear: none;
     float: right;
-    max-height: none;
+    height: unset;
     background-color: transparent;
     margin-left: unset;
   }

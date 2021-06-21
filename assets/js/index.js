@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  // AOS.init({ duration: 600 });
+  // AOS.init({ duration: 1000 });
   // $(window).on("load", function () {
   //   AOS.refresh();
   // });
