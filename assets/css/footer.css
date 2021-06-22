@@ -26,6 +26,12 @@ footer {
   text-transform: uppercase;
   color: #ffffff;
   cursor: pointer;
+  text-decoration: none;
+}
+
+.footer__link:hover {
+  text-decoration: none;
+  color: #fff;
 }
 
 .footer__social__div {
