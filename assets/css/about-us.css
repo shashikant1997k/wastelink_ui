@@ -115,6 +115,9 @@
 
 .team__member {
   margin: 30px 0;
+  border: 1px solid #dcdfe8;
+  border-radius: 10px;
+  padding: 10px;
 }
 
 .team__member img {
