@@ -16,40 +16,6 @@ $(document).ready(function () {
         $(".header").removeClass("header__scroll__col");
       }
     }
-
-    let elem = $(".t3");
-    var docViewTop = $(window).scrollTop();
-    var docViewBottom = docViewTop + $(window).height();
-
-    var elemTop = $(elem).offset().top;
-    var elemBottom = elemTop + $(elem).height() + 90;
-
-    if (elemBottom <= docViewBottom) {
-      $(".t3__num").each(function () {
-        var $this = $(this),
-          countTo = 1008;
-        $({
-          countNum: $this.text(),
-        }).animate(
-          {
-            countNum: countTo,
-          },
-          {
-            duration: 800,
-            easing: "swing",
-            step: function () {
-              $this.text(Math.floor(this.countNum));
-            },
-            complete: function () {
-              $this.text(this.countNum);
-            },
-          }
-        );
-      });
-      a = 1;
-    } else {
-      $(".t3__num").text(1);
-    }
   });
 
   // slick slider start
