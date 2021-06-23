@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Mail" viewBox="0 0 103.11 89.82">
+  <defs>
+    <style>
+      .cls-1{fill:#fff;stroke:#2b314b;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px}
+    </style>
+  </defs>
+  <circle cx="37.94" cy="35.65" r="10.93" class="cls-1"/>
+  <circle cx="68.69" cy="39.1" r="10.18" class="cls-1"/>
+  <path fill="#ffb82d" stroke="#2b314b" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M51.46 86.82h41.76l-3.89-13.88a9.79 9.79 0 0 0-9.66-7.14l-32.22.8 3.66 20.22"/>
+  <path fill="#94d8fd" stroke="#2b314b" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.9 86.82S13 71.2 14.53 66.41C15 64.82 16.13 58.56 22 54c5-3.9 10.83-3.06 16.48-2.59s14.68 1.49 20.8 2.2 17.55.21 22.85-.24c4.67-.39 7.27 1.38 7.22 4.63-.06 3.84-3.31 4.56-7.85 5.74a122.59 122.59 0 0 1-28.58 2.9l-1.8 20.17z"/>
+</svg>
