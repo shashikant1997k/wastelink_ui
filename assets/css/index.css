@@ -44,7 +44,7 @@ html {
 }
 
 .Carousel__slider #carouselMainIndicators .carousel-inner .carousel-item img {
-  height: 95vh;
+  height: 100vh;
   object-fit: cover;
 }
 
@@ -108,7 +108,7 @@ html {
   font-family: Open Sans;
   font-style: normal;
   font-weight: 600;
-  line-height: 109%;
+  line-height: 120%;
   color: #000000;
   text-align: justify;
 }
@@ -117,7 +117,7 @@ html {
   font-family: Open Sans;
   font-style: normal;
   font-weight: 600;
-  line-height: 109%;
+  line-height: 120%;
   color: #858585;
   font-size: 0.95em;
 }
@@ -179,12 +179,12 @@ html {
 
 .__btn {
   border: 2px solid #004b07;
-  padding: 10px 20px;
+  padding: 15px 25px;
   color: #004b07;
   cursor: pointer;
   position: relative;
   overflow: hidden;
-  font-size: 24px;
+  font-size: 18px;
   transition: all 0.5s;
   width: max-content;
   display: flex;
@@ -194,6 +194,11 @@ html {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 900;
+  text-decoration: none;
+}
+
+.__btn:hover {
+  text-decoration: none;
 }
 
 .__btn i {
@@ -329,7 +334,7 @@ html {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 900;
-  font-size: 35px;
+  font-size: 40px;
   line-height: 107.5%;
   text-transform: uppercase;
   color: #004b07;
@@ -359,6 +364,181 @@ html {
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
+}
+
+@media (min-width: 1400px) {
+  .carousel-indicators li {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .Carousel__slider #carouselMainIndicators .carousel-indicators li {
+    width: 18px;
+    height: 18px;
+  }
+  .Carousel__slider .txt1 {
+    font-size: 85px;
+  }
+  .Carousel__slider .txt2 {
+    font-size: 28px;
+  }
+
+  .services .t1 {
+    font-size: 65px;
+  }
+
+  .services .services__inner .services__left,
+  .services__right__text {
+    font-size: 24px;
+    line-height: 120%;
+  }
+
+  .services
+    .services__inner
+    .services__right
+    .services__right__icon
+    .icons
+    div:nth-child(1)
+    img {
+    width: 52px;
+    height: 80px;
+  }
+  ._im {
+    width: 50px;
+    height: 25.96px;
+  }
+
+  .services
+    .services__inner
+    .services__right
+    .services__right__icon
+    .icons
+    div:nth-child(2) {
+    font-size: 24px;
+  }
+
+  .__btn {
+    padding: 30px 30px;
+    width: 420px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+  }
+
+  .services .services__con2 .t2 {
+    font-size: 56px;
+  }
+
+  .services__co2__image img {
+    width: 420px;
+  }
+  .services .services__inner {
+    margin-top: 50px;
+  }
+
+  .services__co2__txt .t3 {
+    font-size: 42px;
+  }
+  .co2__btn {
+    font-size: 18px;
+  }
+
+  .content1__txt {
+    font-size: 60px;
+  }
+
+  .featured .t4 {
+    font-size: 60px;
+    margin-bottom: 55px;
+  }
+  .featured .slick-wrap img {
+    width: 130px !important;
+  }
+}
+
+@media (min-width: 1700px) {
+  .carousel-indicators li {
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+  .Carousel__slider #carouselMainIndicators .carousel-indicators li {
+    width: 20px;
+    height: 20px;
+  }
+  .Carousel__slider .txt1 {
+    font-size: 96px;
+  }
+  .Carousel__slider .txt2 {
+    font-size: 28px;
+  }
+
+  .services .t1 {
+    font-size: 72px;
+  }
+
+  .services .services__inner .services__left,
+  .services__right__text {
+    font-size: 24px;
+    line-height: 125%;
+  }
+
+  .services
+    .services__inner
+    .services__right
+    .services__right__icon
+    .icons
+    div:nth-child(1)
+    img {
+    width: 60.97px;
+    height: 94.96px;
+  }
+  ._im {
+    width: 60.97px;
+    height: 25.96px;
+  }
+
+  .services
+    .services__inner
+    .services__right
+    .services__right__icon
+    .icons
+    div:nth-child(2) {
+    font-size: 24px;
+  }
+
+  .__btn {
+    padding: 40px 40px;
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 26px;
+  }
+
+  .services .services__con2 .t2 {
+    font-size: 64px;
+  }
+
+  .services__co2__image img {
+    width: 540px;
+  }
+
+  .services__co2__txt .t3 {
+    font-size: 48px;
+  }
+  .co2__btn {
+    font-size: 24px;
+  }
+
+  .content1__txt {
+    font-size: 72px;
+  }
+
+  .featured .t4 {
+    font-size: 72px;
+    margin-bottom: 70px;
+  }
+  .featured .slick-wrap img {
+    width: 150px !important;
+  }
 }
 
 @media (max-width: 768px) {

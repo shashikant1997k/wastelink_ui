@@ -46,8 +46,6 @@
 
 .header .menu {
   clear: both;
-  /* max-height: 0; */
-  /* max-height: 240px; */
   height: 100vh;
   margin-left: 100%;
   transition: margin-left 0.2s ease-out;
@@ -130,9 +128,7 @@
   top: 0;
 }
 
-/* 48em = 768px */
-
-@media (min-width: 48em) {
+@media (min-width: 768px) {
   .header {
     position: fixed;
     top: 0;
@@ -152,6 +148,7 @@
   }
   .header li a {
     padding: 20px 30px;
+    font-size: 18px;
   }
   .header .menu {
     clear: none;
@@ -162,5 +159,19 @@
   }
   .header .menu-icon {
     display: none;
+  }
+}
+
+@media (min-width: 1400px) {
+  .header {
+    height: 100px;
+  }
+  .header li a {
+    font-size: 24px;
+  }
+
+  .header .logo img {
+    width: 87px;
+    height: 87px;
   }
 }

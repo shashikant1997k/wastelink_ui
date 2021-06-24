@@ -1,5 +1,5 @@
 footer {
-  height: 200px;
+  height: 220px;
   background: #004b07;
   width: 100%;
   display: flex;
@@ -60,6 +60,51 @@ footer {
   display: block;
   /* background: #545454; */
   border-radius: 6px;
+}
+
+.footer__social a img {
+  width: 25px;
+  height: 25px;
+}
+
+@media (min-width: 1400px) {
+  footer {
+    height: 300px;
+  }
+  .footer__logo img {
+    width: 160px;
+  }
+  .footer__link {
+    font-size: 24px;
+  }
+  .footer__social__div .t5 {
+    font-size: 24px;
+  }
+
+  .footer__social a img {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+@media (min-width: 1700px) {
+  footer {
+    height: 300px;
+  }
+  .footer__logo img {
+    width: 220px;
+  }
+  .footer__link {
+    font-size: 24px;
+  }
+  .footer__social__div .t5 {
+    font-size: 24px;
+  }
+
+  .footer__social a img {
+    width: 35px;
+    height: 35px;
+  }
 }
 
 @media (max-width: 768px) {

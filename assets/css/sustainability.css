@@ -14,7 +14,7 @@
 
 .header__image img {
   width: 100%;
-  height: 95vh;
+  height: 100vh;
   object-fit: cover;
 }
 
@@ -25,7 +25,7 @@
   font-family: Open Sans;
   font-style: normal;
   font-weight: 800;
-  font-size: 50px;
+  font-size: 58px;
   line-height: 120%;
   text-transform: uppercase;
   color: #ffffff;
@@ -40,7 +40,7 @@ main {
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 36px;
   line-height: 109%;
   text-transform: uppercase;
   color: #000000;
@@ -54,7 +54,7 @@ main {
   font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 80px;
+  font-size: 95px;
   line-height: 109%;
   text-transform: uppercase;
   color: #858585;
@@ -65,8 +65,8 @@ main {
   font-family: Open Sans;
   font-style: normal;
   font-weight: 600;
-  font-size: 15px;
-  line-height: 109%;
+  font-size: 18px;
+  line-height: 120%;
   color: #858585;
 }
 
@@ -78,7 +78,7 @@ main {
   font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 36px;
   line-height: 109%;
   color: #000000;
   margin-bottom: 15px;
@@ -88,7 +88,7 @@ main {
   font-family: Open Sans;
   font-style: normal;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 109%;
   color: #858585;
 }
@@ -107,15 +107,15 @@ main {
 }
 
 .con2__2 .icons div:nth-child(1) img {
-  width: 24px;
-  height: 35px;
+  width: 28px;
+  height: 40px;
 }
 
 .con2__2 .icons div:nth-child(2) {
   font-family: Open Sans;
   font-style: normal;
   font-weight: 600;
-  font-size: 0.8em;
+  font-size: 0.9em;
   color: #858585;
   margin-top: 10px;
 }
@@ -191,6 +191,122 @@ main {
 .con4 .__btn:hover:before {
   top: 0;
   left: 0;
+}
+
+@media (min-width: 1400px) {
+  .header__image .t1 {
+    font-size: 110px;
+  }
+
+  .con1 .t2 {
+    font-size: 52px;
+  }
+
+  .con1__1 div:nth-child(1) {
+    font-size: 160px;
+  }
+
+  .con1__1 div:nth-child(2) {
+    font-size: 28px;
+  }
+
+  .con2__1 .t3 {
+    font-size: 52px;
+  }
+
+  .con2__1 .t4 {
+    font-size: 28px;
+    margin-top: 35px;
+  }
+
+  .con2__2 {
+    padding: 80px 50px 0px;
+  }
+  .con2__2 .icons div:nth-child(1) img {
+    width: 55.97px;
+    height: 82px;
+  }
+
+  .con2__2 .icons div:nth-child(2) {
+    font-size: 22px;
+  }
+
+  ._im {
+    width: 50px;
+    height: 25px;
+  }
+
+  .con4 {
+    margin-top: 100px;
+  }
+
+  .con4 .con4__1 {
+    font-size: 60px;
+  }
+
+  .con4 .__btn {
+    padding: 30px 30px;
+    font-size: 24px;
+    width: 420px;
+  }
+}
+
+@media (min-width: 1700px) {
+  .header__image .t1 {
+    font-size: 122px;
+  }
+
+  .con1 .t2 {
+    font-size: 56px;
+  }
+
+  .con1__1 div:nth-child(1) {
+    font-size: 190px;
+  }
+
+  .con1__1 div:nth-child(2) {
+    font-size: 30px;
+  }
+
+  .con2__1 .t3 {
+    font-size: 56px;
+  }
+
+  .con2__1 .t4 {
+    font-size: 30px;
+    margin-top: 40px;
+  }
+
+  .con2__2 {
+    padding: 80px 50px 0px;
+  }
+  .con2__2 .icons div:nth-child(1) img {
+    width: 60.97px;
+    height: 90px;
+  }
+
+  .con2__2 .icons div:nth-child(2) {
+    font-size: 24px;
+  }
+
+  ._im {
+    width: 60.97px;
+    height: 25.96px;
+  }
+
+  .con4 {
+    margin-top: 110px;
+  }
+
+  .con4 .con4__1 {
+    font-size: 72px;
+  }
+
+  .con4 .__btn {
+    padding: 40px 40px;
+    font-size: 24px;
+    width: 475px;
+  }
 }
 
 @media (max-width: 768px) {
