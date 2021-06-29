@@ -148,7 +148,7 @@
   color: #858585;
   font-size: 14px;
   line-height: 150%;
-  text-align: justify;
+  /* text-align: justify; */
   padding: 0px 5px;
   font-weight: normal;
 }
