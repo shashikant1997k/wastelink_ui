@@ -265,6 +265,7 @@ html {
   line-height: 100%;
   text-transform: uppercase;
   color: #000000;
+  margin-left: -8%;
 }
 
 .services__co2__image {
@@ -571,6 +572,9 @@ html {
   .services {
     padding: 0px 2%;
   }
+  .services .services__con2 .t2 {
+    margin-left: -2%;
+  }
   .services .t1 {
     font-size: 32px;
   }
@@ -639,6 +643,9 @@ html {
   }
   .services {
     padding: 0px 0%;
+  }
+  .services .services__con2 .t2 {
+    margin-left: 0%;
   }
   .services .t1 {
     font-size: 22px;
