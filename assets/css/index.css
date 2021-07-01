@@ -12,6 +12,33 @@ html {
 .Carousel__slider {
   position: relative;
 }
+
+.Carousel__slider .carousel-caption {
+  left: 6%;
+  bottom: 40px;
+  /* width: 70%; */
+}
+.Carousel__slider .carousel-caption .txt1 {
+  font-family: Montserrat;
+  font-style: normal;
+  color: #fff;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 109%;
+  text-transform: uppercase;
+  width: 100px;
+  margin-bottom: 30px;
+}
+.Carousel__slider .carousel-caption .txt2 {
+  text-align: left;
+  font-family: Open Sans;
+  font-style: normal;
+  color: #fff;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 109%;
+}
+
 .Carousel__slider #carouselMainIndicators .carousel-indicators {
   margin-left: 5%;
   margin-right: 5%;
@@ -35,7 +62,7 @@ html {
   object-fit: cover;
 }
 
-.Carousel__slider .carousel__text {
+/* .Carousel__slider .carousel__text {
   display: flex;
   flex-direction: column;
   position: absolute;
@@ -43,9 +70,9 @@ html {
   bottom: 20%;
   margin-left: 5%;
   margin-right: 5%;
-}
+} */
 
-.Carousel__slider .txt1 {
+/* .Carousel__slider .txt1 {
   font-family: Montserrat;
   font-style: normal;
   color: #fff;
@@ -55,9 +82,9 @@ html {
   text-transform: uppercase;
   width: 100px;
   margin-bottom: 30px;
-}
+} */
 
-.Carousel__slider .txt2 {
+/* .Carousel__slider .txt2 {
   font-family: Open Sans;
   font-style: normal;
   color: #fff;
@@ -65,7 +92,7 @@ html {
   font-size: 25px;
   line-height: 109%;
   width: 70%;
-}
+} */
 
 .services {
   margin-top: 50px;
@@ -83,6 +110,10 @@ html {
   color: #000;
   line-height: 110%;
   font-family: Montserrat;
+}
+
+.services .t1 div {
+  display: none;
 }
 
 .services .services__inner {
@@ -240,6 +271,7 @@ html {
   display: flex;
   justify-content: center;
   height: min-content;
+  margin-top: 5%;
 }
 
 .services__co2__txt {
@@ -256,6 +288,7 @@ html {
   color: #000000;
   padding-left: 16%;
   padding-bottom: 5%;
+  white-space: nowrap;
 }
 
 .co2__btn {
@@ -362,10 +395,10 @@ html {
     width: 18px;
     height: 18px;
   }
-  .Carousel__slider .txt1 {
+  .Carousel__slider .carousel-caption .txt1 {
     font-size: 85px;
   }
-  .Carousel__slider .txt2 {
+  .Carousel__slider .carousel-caption .txt2 {
     font-size: 28px;
   }
 
@@ -405,7 +438,7 @@ html {
 
   .__btn {
     padding: 30px 30px;
-    width: 420px;
+    width: 520px;
     display: flex;
     justify-content: space-between;
     font-size: 22px;
@@ -451,10 +484,10 @@ html {
     width: 20px;
     height: 20px;
   }
-  .Carousel__slider .txt1 {
+  .Carousel__slider .carousel-caption .txt1 {
     font-size: 96px;
   }
-  .Carousel__slider .txt2 {
+  .Carousel__slider .carousel-caption .txt2 {
     font-size: 28px;
   }
 
@@ -494,7 +527,7 @@ html {
 
   .__btn {
     padding: 40px 40px;
-    width: 450px;
+    width: 570px;
     display: flex;
     justify-content: space-between;
     font-size: 26px;
@@ -529,10 +562,10 @@ html {
 }
 
 @media (max-width: 768px) {
-  .Carousel__slider .txt1 {
+  .Carousel__slider .carousel-caption .txt1 {
     font-size: 45px;
   }
-  .Carousel__slider .txt2 {
+  .Carousel__slider .carousel-caption .txt2 {
     font-size: 20px;
   }
   .services {
@@ -540,6 +573,12 @@ html {
   }
   .services .t1 {
     font-size: 32px;
+  }
+  .services .t1 span {
+    display: none;
+  }
+  .services .t1 div {
+    display: block;
   }
   .services .services__inner {
     padding-left: 3%;
@@ -592,17 +631,24 @@ html {
 }
 
 @media (max-width: 576px) {
-  .Carousel__slider .txt1 {
+  .Carousel__slider .carousel-caption .txt1 {
     font-size: 36px;
   }
-  .Carousel__slider .txt2 {
+  .Carousel__slider .carousel-caption .txt2 {
     font-size: 18px;
   }
   .services {
     padding: 0px 0%;
   }
   .services .t1 {
-    font-size: 30px;
+    font-size: 22px;
+  }
+
+  .services .t1 span {
+    display: none;
+  }
+  .services .t1 div {
+    display: block;
   }
   .services .services__inner {
     padding-left: 3%;
@@ -616,7 +662,7 @@ html {
   }
 
   .services .services__con2 .t2 {
-    font-size: 25px;
+    font-size: 22px;
   }
 
   .services__co2__txt .t3 {
