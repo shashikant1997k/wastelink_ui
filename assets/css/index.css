@@ -217,7 +217,7 @@ html {
   cursor: pointer;
   position: relative;
   overflow: hidden;
-  font-size: 18px;
+  font-size: 16px;
   transition: all 0.5s;
   width: max-content;
   display: flex;
@@ -228,6 +228,7 @@ html {
   font-style: normal;
   font-weight: 900;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 .__btn:hover {
@@ -313,7 +314,7 @@ html {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 900;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 131%;
 }
 
@@ -422,11 +423,12 @@ html {
   }
 
   .services .t1 {
-    font-size: 57px;
+    font-size: 48px;
   }
 
   .services .services__inner .services__left,
-  .services__right__text {
+  .services__right__text,
+  .t21_1 {
     font-size: 24px;
     line-height: 120%;
   }
@@ -446,6 +448,10 @@ html {
     height: 25.96px;
   }
 
+  .imgDiv img {
+    width: 130px;
+  }
+
   .services
     .services__inner
     .services__right
@@ -460,11 +466,11 @@ html {
     width: 520px;
     display: flex;
     justify-content: space-between;
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .services .services__con2 .t2 {
-    font-size: 56px;
+    font-size: 48px;
   }
 
   .services__co2__image img {
@@ -511,15 +517,19 @@ html {
   }
 
   .services .t1 {
-    font-size: 62px;
+    font-size: 52px;
   }
 
   .services .services__inner .services__left,
-  .services__right__text {
+  .services__right__text,
+  .t21_1 {
     font-size: 24px;
     line-height: 125%;
   }
 
+  .imgDiv img {
+    width: 150px;
+  }
   .services
     .services__inner
     .services__right
@@ -549,11 +559,11 @@ html {
     width: 570px;
     display: flex;
     justify-content: space-between;
-    font-size: 26px;
+    font-size: 22px;
   }
 
   .services .services__con2 .t2 {
-    font-size: 62px;
+    font-size: 52px;
   }
 
   .services__co2__image img {

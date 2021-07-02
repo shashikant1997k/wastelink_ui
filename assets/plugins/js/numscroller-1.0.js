@@ -115,7 +115,18 @@
         );
       }, timeout);
     } else {
-      $(".roller-title-number-" + slno).html(max);
+      function numberWithCommas(x) {
+        return x.toString().split(".")[0].length > 3
+          ? x
+              .toString()
+              .substring(0, x.toString().split(".")[0].length - 3)
+              .replace(/\B(?=(\d{2})+(?!\d))/g, ",") +
+              "," +
+              x.toString().substring(x.toString().split(".")[0].length - 3)
+          : x.toString();
+      }
+
+      $(".roller-title-number-" + slno).html(numberWithCommas(max));
     }
   }
 })(jQuery);
