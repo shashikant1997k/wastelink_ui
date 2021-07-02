@@ -2,9 +2,9 @@ $(document).ready(function () {
   $(window).scroll(function () {
     if ($(window).scrollTop() >= 100) {
       $(".header").addClass("header__scroll__col");
-      $(".header__logo").attr("src", "assets/image/w_logo.svg");
+      // $(".header__logo").attr("src", "assets/image/w_logo1.svg");
     } else {
-      $(".header__logo").attr("src", "assets/image/page1/w_logo1.svg");
+      // $(".header__logo").attr("src", "assets/image/page1/w_logo1.svg");
       if (window.matchMedia("(max-width: 767px)").matches) {
         if (!$(".menu-btn").is(":checked")) {
           $(".header").removeClass("header__scroll__col");

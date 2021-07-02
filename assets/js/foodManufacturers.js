@@ -9,7 +9,7 @@ $(document).ready(function () {
       $(".header").addClass("header__scroll__col");
       $(".header ul li a").css("color", "#fff");
       $(".header .menu-icon .navicon").addClass("navicon_white");
-      $(".header__logo").attr("src", "assets/image/w_logo.svg");
+      $(".header__logo").attr("src", "assets/image/w_logo1.svg");
     } else {
       $(".header__logo").attr("src", "assets/image/page1/w_logo1.svg");
       if (!$(".menu-btn").is(":checked")) {

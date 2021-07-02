@@ -59,7 +59,19 @@ html {
 
 .Carousel__slider #carouselMainIndicators .carousel-inner .carousel-item img {
   height: 100vh;
-  object-fit: cover;
+  /* object-fit: cover; */
+  object-fit: fill;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.35);
 }
 
 /* .Carousel__slider .carousel__text {
@@ -122,26 +134,29 @@ html {
   margin-top: 30px;
 }
 
-.services .services__inner .services__left {
+.imgDiv img {
+  width: 100px;
+}
+
+.t21 {
   font-family: Open Sans;
   font-style: normal;
   font-weight: 600;
   line-height: 120%;
   color: #000000;
   text-align: justify;
+  margin-left: 10px;
 }
 
-.services .services__inner .services__right {
+.t21_1 {
   font-family: Open Sans;
   font-style: normal;
   font-weight: 600;
   line-height: 120%;
   color: #858585;
   font-size: 0.95em;
-}
-
-.services__right__text {
   text-align: justify;
+  margin-right: 10px;
 }
 
 .services .services__inner .services__right .services__right__icon {
@@ -309,6 +324,7 @@ html {
 .content1 {
   margin-top: 5%;
   position: relative;
+  margin-bottom: 5%;
 }
 
 .content1__img {
@@ -318,13 +334,14 @@ html {
 
 .content1__img img:nth-child(1) {
   position: absolute;
-  height: 80vh;
+  height: 100%;
   width: 240px;
+  display: none;
 }
 
 .content1__img img:nth-child(2) {
   width: 100%;
-  height: 80vh;
+  height: 100%;
   object-fit: cover;
 }
 
@@ -334,14 +351,15 @@ html {
   position: absolute;
   top: 20px;
   left: 4%;
-
+  z-index: 10;
   font-family: Montserrat;
   font-style: normal;
   font-weight: 900;
   font-size: 40px;
   line-height: 109%;
   text-transform: uppercase;
-  color: #004b07;
+  /* color: #004b07; */
+  color: #fff;
 }
 
 .featured {
@@ -404,7 +422,7 @@ html {
   }
 
   .services .t1 {
-    font-size: 65px;
+    font-size: 57px;
   }
 
   .services .services__inner .services__left,
@@ -493,7 +511,7 @@ html {
   }
 
   .services .t1 {
-    font-size: 72px;
+    font-size: 62px;
   }
 
   .services .services__inner .services__left,
@@ -535,7 +553,7 @@ html {
   }
 
   .services .services__con2 .t2 {
-    font-size: 64px;
+    font-size: 62px;
   }
 
   .services__co2__image img {
@@ -661,6 +679,10 @@ html {
     padding-left: 3%;
     padding-right: 0%;
     margin-top: 22px;
+  }
+
+  .services .services__inner .services__right {
+    margin-top: 30px;
   }
 
   .services__right__text {
