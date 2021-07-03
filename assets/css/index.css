@@ -107,8 +107,8 @@ html {
 } */
 
 .services {
-  margin-top: 50px;
-  padding: 0px 5%;
+  padding: 50px 5%;
+  /* padding-top: 50px; */
   /* margin-bottom: 50px; */
   margin-right: 0 !important;
   margin-left: 0 !important;
@@ -270,7 +270,7 @@ html {
 .services .services__con2 {
   padding-left: 8%;
   padding-right: 4%;
-  margin-top: 6%;
+  margin-top: 0%;
 }
 
 .services .services__con2 .t2 {
@@ -323,7 +323,7 @@ html {
 }
 
 .content1 {
-  margin-top: 5%;
+  margin-top: 2%;
   position: relative;
   margin-bottom: 5%;
 }
