@@ -180,8 +180,11 @@ html {
   .icons
   div:nth-child(1)
   img {
-  width: 24px;
-  height: 35px;
+  /* width: 24px;
+  height: 35px; */
+
+  width: 60px;
+  height: 60px;
 }
 
 .services
@@ -440,8 +443,16 @@ html {
     .icons
     div:nth-child(1)
     img {
-    width: 52px;
-    height: 80px;
+    /* width: 52px;
+    height: 80px; */
+
+    width: 90px;
+    height: 90px;
+  }
+
+  .icons svg {
+    width: 75px;
+    height: 75px;
   }
   ._im {
     width: 50px;
@@ -537,9 +548,18 @@ html {
     .icons
     div:nth-child(1)
     img {
-    width: 60.97px;
-    height: 94.96px;
+    /* width: 60.97px;
+    height: 94.96px; */
+
+    width: 100px;
+    height: 100px;
   }
+
+  .icons svg {
+    width: 90px;
+    height: 90px;
+  }
+
   ._im {
     width: 60.97px;
     height: 25.96px;
